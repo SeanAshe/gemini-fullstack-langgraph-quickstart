@@ -22,8 +22,8 @@ export default function App() {
     reasoning_model: string;
   }>({
     apiUrl: import.meta.env.DEV
-      ? "http://localhost:2024"
-      : "http://localhost:8123",
+      ? "http://192.168.7.6:2024"
+      : "https://langgraph.seanlocke.cn",
     assistantId: "agent",
     messagesKey: "messages",
     onFinish: (event: any) => {
