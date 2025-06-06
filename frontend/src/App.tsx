@@ -23,7 +23,7 @@ export default function App() {
   }>({
     apiUrl: import.meta.env.DEV
       ? "http://192.168.7.6:2024"
-      : "https://langgraph.seanlocke.cn",
+      : "http://192.168.7.6:56794",
     assistantId: "agent",
     messagesKey: "messages",
     onFinish: (event: any) => {
